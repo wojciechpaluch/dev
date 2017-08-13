@@ -17,5 +17,10 @@ for (var i=1; i<table.length; i++)
 
 var table2 = [1,2,3,4,5,6,7,8,9,10];
 {
-    for (var i=1; i<10; i++)
+    for (var i = 1; i < 10; i++)
     document.getElementById("start-demo-5").innerHTML = table2; }
+
+
+var text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("start-demo-6").innerHTML = text.length;
+
