@@ -14,3 +14,8 @@ var table = ["User", "User2", "User3"];
 for (var i=1; i<table.length; i++)
 
     document.getElementById("start-demo-4").innerHTML = table; }
+
+var table2 = [1,2,3,4,5,6,7,8,9,10];
+{
+    for (var i=1; i<10; i++)
+    document.getElementById("start-demo-5").innerHTML = table2; }
