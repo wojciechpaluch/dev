@@ -22,5 +22,16 @@ var table2 = [1,2,3,4,5,6,7,8,9,10];
 
 
 var text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-document.getElementById("start-demo-6").innerHTML = text.length;
+document.getElementById("start-demo-6").innerHTML = text.length + " << wyświetla ilość liter ";
+
+
+
+var person = {
+    firstName : "Jan",
+    lastName : "Kowalski",
+    born : "Lublin",
+    age :  "35",
+}
+
+document.getElementById("start-demo-7").innerHTML = person.firstName + " " + person.lastName + " from " + person.born + " have " + person.age + " years old ";
 
