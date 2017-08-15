@@ -3,6 +3,8 @@ function changeParagraph() {
     document.getElementById("start-demo-2").innerHTML = "Ten paragraf uległ zmianie po wywołaniu skryptu";
 }
 
+// Tworzymy pierwszą zmiennę
+
 var myFirstVar = 1;
 {
     document.getElementById("start-demo-3").innerHTML = myFirstVar;
@@ -19,9 +21,11 @@ for (var i=1; i<table.length; i++)
 
     document.getElementById("start-demo-4").innerHTML += table[i]; }
 
+// Funkcja wyświetlająca zawartość tablicy zaczynając od czwartego elementu
+
 var table2 = [1,2,3,4,5,6,7,8,9,10];
 {
-    for (var i = 1; i < 10; i++)
+    for (var i = 4; i < 10; i++)
     document.getElementById("start-demo-5").innerHTML += table2[i]; }
 
 
@@ -31,6 +35,7 @@ var text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 document.getElementById("start-demo-6").innerHTML = text.length + " << wyświetla ilość liter ";
 
 
+// Tworzymy obiekt z różnymi zmiennymi następnie wyświetlamy zawartość w index.html
 
 var person = {
     firstName : "Jan",
