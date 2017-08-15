@@ -1,6 +1,6 @@
 # ...::: dev :::...
 
-Repository with Javascripts scripts.
+Repository with Javascripts code.
 
 
 Instructions: 
